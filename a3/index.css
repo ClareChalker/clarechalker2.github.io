@@ -1,0 +1,546 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: url(images/tile.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+.wrapper {
+   border: 10px solid rgb(0, 0, 0);
+   max-width: 3456px;
+   margin: auto;
+}
+
+/* navigation */
+.navigation {
+   display: flex;
+   justify-content: center;
+   background-color: #302c2f;
+}
+
+.navigation a {
+   display: inline;
+   display: block;
+   padding: 15px;
+   font-size: 20px;
+   text-decoration: none;
+   color: white;
+   ;
+   transition: 1s;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation a:hover {
+   background-color: #40ecff;
+   color: #d05353;
+}
+
+.hamburger {
+   display: none !important;
+}
+
+/* hero */
+.hero h1 {
+   word-spacing: 40px;
+   color: rgb(131, 131, 171);
+   text-align: center;
+   padding: 80px;
+   font-size: 70px;
+   font-family: "Monoton", cursive;
+}
+
+
+.hero img {
+   width: 100%;
+}
+
+
+.info {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+.hero h2 {
+   display: inline;
+   display: block;
+   padding: 70 px;
+   font-size: 50px;
+   text-decoration: none;
+   color: white;
+   background-color: #302c2f;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero p {
+   display: inline;
+   display: block;
+   padding: 70 px;
+   font-size: 50px;
+   text-decoration: none;
+   color: white;
+   background-color: #302c2f;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   word-spacing: 20px;
+}
+
+.hero :hover {
+   color: #ff0000;
+}
+.video{
+width: 100%;
+aspect-ratio: 16/9;}
+
+.hero a {
+   text-align: center;
+   padding: 80px;
+   font-size: 50px;
+   text-decoration: none;
+   color: white;
+   background-color: #302c2f;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: black;
+   margin: 20px;
+   transition: 5s;
+   display: flex;
+   display: block;
+   margin: 70px;
+
+}
+
+/* lineup */
+.lineup {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 60px;
+   background-position: center;
+   font-family: Arial, Helvetica, sans-serif
+}
+
+
+.lineup a {
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   background-color: black;
+   display: block;
+   margin: 20px;
+   padding: 70px;
+   transition: 5s;
+
+}
+
+.lineup a:hover {
+   color: rgb(255, 0, 0);
+
+}
+
+.information {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 60px;
+   margin-block-start: 1.33em;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.information h1 {
+   padding: 20px;
+   margin: 5px;
+   text-decoration: wavy;
+   font-family: Arial, Helvetica, sans-serif
+}
+
+/* infobox */
+
+.infobox {
+   background-color: #302c2f(0, 252, 252, 0.83);
+   border: 10px solid #302c2f;
+   width: 50%;
+   font-family: Arial, Helvetica, sans-serif
+}
+
+.infobox img {
+   width: 100%;
+   object-fit: cover;
+   height: 100%;
+}
+
+.infobox h2 {
+   font-family: "helvetica";
+   font-size: 50px;
+   font-weight: normal;
+   color: #302c2f;
+   text-align: center;
+   padding: 20px;
+   margin: 20px;
+
+}
+
+.infobox h3 {
+   font-size: 20px;
+   font-weight: normal;
+   color: #302c2f;
+   text-align: center;
+   padding: 20px;
+
+}
+
+
+.infobox p {
+   text-align: center;
+   padding: 40px;
+   font-size: 40px;
+   padding: 20px;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+}
+
+.infobox a {
+   color: #000000;
+   font-size: large;
+}
+
+.infobox a:hover {
+   color: #3932b0;
+}
+
+
+.infobox h4 {
+   justify-content: space-between;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 50px;
+   font-weight: normal;
+   color: #302c2f;
+   text-align: center;
+   padding: 20px;
+}
+
+/* ////footer/// */
+
+.Footer {
+   display: flex;
+   justify-content: space-between;
+   background-color: #302c2f;
+}
+
+.newsletter {
+   width: 30%;
+}
+
+.newsletter h2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+   font-weight: normal;
+}
+
+.newsletter p {
+   font-size: 15px;
+   color: rgb(255, 255, 255);
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px;
+}
+
+/* ///// */
+.inputemail {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   padding: 10px;
+
+   background-color: #ffffff;
+   border: 1px solid rgb(255, 0, 0);
+   border-radius: 5px;
+
+   margin-top: 10px;
+   width: 70%;
+}
+
+.inputemail:focus {
+   background-color: white;
+   outline: none;
+   border: 1px solid red;
+}
+
+.inputemail::placeholder {
+   font-style: italic;
+}
+
+.sendemail {
+   font-family: "Staatliches", cursive;
+
+   padding: 10px;
+   background-image: linear-gradient(rgb(180, 234, 244), rgb(109, 188, 202));
+   border: 1px solid grey;
+   border-radius: 5px;
+   transition: 1s;
+}
+
+.sendemail:hover {
+   color: rgb(92, 59, 59);
+   background-image: linear-gradient(rgb(181, 244, 180), rgb(109, 202, 115));
+}
+
+.footerlinks a:hover {
+   color: #ff006a;
+
+}
+
+.footerlinks a {
+   font-size: 15px;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(255, 255, 255);
+   transition: 5s;
+   text-decoration: none;
+   display: block;
+}
+
+
+.social {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   align-items: center;
+
+
+}
+
+.social img {
+   filter: grayscale(100%) drop-shadow(0px 0px 0px black);
+   padding: 5px;
+   transition: .5s;
+
+}
+
+.social img:hover {
+   filter: grayscale(0%) drop-shadow(5px 5px 4px black) saturate(10);
+   transform: scale(1.2) rotate(60deg);
+}
+
+/* artist */
+
+
+
+
+.artistcontent {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   row-gap: 20px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   backdrop-filter: blur(15px);
+   background-color: rgba(255, 255, 255, 0.2);
+   border: #ff0000;
+}
+
+.navigation :hover {
+   color: #ff0000;
+}
+
+.artistinfo {
+   width: 30%;
+   background-color: rgb(131, 131, 171);
+   border-radius: 20px;
+   padding: 30px;
+   border-radius: 200px;
+   box-sizing: border-box;
+   box-shadow: 2px 2px 5px grey;
+
+}
+
+.pinkbg {
+   background-color: #302c2f(255, 107, 153, 0.5);
+}
+
+/*  */
+.artistinfo img {
+   width: 100%;
+   border: 10px solid rgb(0, 0, 0);
+   border-radius: 200px;
+   box-sizing: border-box;
+   box-shadow: 2px 2px 5px rgb(69, 69, 69);
+   filter: grayscale();
+   transition: 0.5s;
+
+
+}
+
+/*  */
+
+.artistinfo:hover img {
+   filter: none;
+   transform: scale(1.1) rotate(10deg);
+   box-shadow: 10px 10px 20px rgb(69, 69, 69);
+}
+
+.artistdetails {
+   text-align: center;
+}
+
+.artistdetails h2 {
+   font-family: "Monoton, cursive";
+   font-size: 40px;
+   color: rgb(0, 0, 0);
+}
+
+.artistdetails p {
+   font-family: "Roboto";
+   padding-top: 30px;
+}
+
+/* moboil css */
+
+@media screen and (max-width:1125px) {
+
+
+   body {
+      border: 10px solid yellow;
+      background-image: url(images/tile.jpg);
+   }
+
+
+   /* navigation */
+
+   .navigation a {
+      text-align: center;
+   }
+
+   .hamburger {
+      display: block !important;
+      font-size: 40px !important;
+   }
+
+   .active {
+      height: 500px !important;
+   }
+
+   .navigation {
+      flex-direction: column;
+      height: 100px;
+      justify-content: flex-start;
+      overflow: hidden;
+   }
+
+
+
+   /* mobile hero */
+
+   .hero h1 {
+      font-size: 7vw;
+   }
+
+   .hero h2 {
+      font-size: 5vw;
+   }
+
+
+   /* mobile lineup */
+
+   .lineup {
+      flex-direction: column;
+   }
+
+   .lineup a {
+      text-align: center;
+      font-size: 8vw;
+      color: white;
+   }
+
+
+   /* mobile content */
+
+   .content h1 {
+      font-size: 4vw;
+   }
+
+   .content h2 {
+      font-size: 3vw;
+   }
+
+
+   /* mobile info */
+
+   .info {
+      flex-direction: column;
+   }
+
+   .infobox {
+      width: 100%;
+   }
+
+   .tickets {
+      order: -1;
+   }
+
+   .infobox img {
+      height: 400px;
+   }
+
+
+   /* mobile footer */
+
+
+   .footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+
+   .newsletter {
+      width: 100%;
+   }
+
+   .newsletter h2 {
+      font-size: 3vw;
+   }
+
+   .newsletter p {
+      font-size: 3vw;
+   }
+
+   .footerlinks a {
+      font-size: 3vw;
+
+      /* mobile artist*/
+
+      .artistcontent {
+         flex-direction: column;
+         align-items: center;
+      }
+
+      .artistinfo {
+         width: 80%;
+         text-align: center;
+      }
+
+      .artistinfo img {
+         width: 50%;
+      }
+
+      .artistdetails h2 {
+         padding-top: 30px;
+         font-size: 6vw;
+      }
+
+      .artistdetails p {
+         font-size: 3vw;
+      }
+   }
+}
